@@ -103,7 +103,7 @@ endif "}}}2
 " line numbers and folding
 hi LineNr	guifg=#bbbbbb	guibg=#eeeeee	gui=NONE	ctermfg=darkgray	ctermbg=255	cterm=NONE
 hi CursorLineNr	guifg=#870000	guibg=#ffffaf	gui=NONE	ctermfg=88	ctermbg=229	cterm=NONE
-hi NonText	guifg=#c5c5c5	guibg=#ffffff	gui=NONE	ctermfg=gray	ctermbg=white	cterm=NONE
+hi NonText	guifg=#c5c5c5	guibg=#ffffff	gui=NONE	ctermfg=bg	ctermbg=bg	cterm=NONE
 hi Folded	guifg=#707090	guibg=#f0f0f0	gui=NONE	ctermfg=darkblue	ctermbg=gray	cterm=NONE
 hi FoldColumn	guifg=#eeeeee	guibg=#d2d2d2	gui=NONE	ctermfg=darkblue	ctermbg=255	cterm=NONE
 hi SignColumn	guifg=#000080	guibg=#d2d2d2	gui=NONE	ctermfg=darkblue	ctermbg=darkgray	cterm=NONE

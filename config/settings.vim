@@ -10,7 +10,6 @@ syntax on
 colorscheme paperwhite
 filetype plugin indent on
 
-set nocompatible
 set encoding=utf-8              "Set utf-8 as standard encoding
 set number                      "Line numbers are good
 set backspace=indent,eol,start  "Allow backspace in insert mode

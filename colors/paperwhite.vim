@@ -137,9 +137,9 @@ if version >= 700
   hi TabLineSel	guifg=#d2d2d2	guibg=#333333	gui=NONE	ctermfg=bg	ctermbg=fg	cterm=NONE
 
   " popup completion menu
-  hi Pmenu	guifg=fg	guibg=#cccccc	gui=NONE	ctermfg=fg	ctermbg=gray	cterm=NONE
-  hi PmenuSel	guifg=bg	guibg=#333333	gui=NONE	ctermfg=bg	ctermbg=darkgray	cterm=NONE
-  hi PmenuSbar	guifg=#333333	guibg=#333333	gui=NONE	ctermfg=darkgray	ctermbg=darkgray	cterm=NONE
+  hi Pmenu	guifg=fg	guibg=#e0dcff	gui=NONE	ctermfg=fg	ctermbg=189	cterm=NONE
+  hi PmenuSel	guifg=bg	guibg=#0070bf	gui=NONE	ctermfg=bg	ctermbg=25	cterm=NONE
+  hi PmenuSbar	guifg=#eeeeee	guibg=#eeeeee	gui=NONE	ctermfg=255	ctermbg=255	cterm=NONE
   hi PmenuThumb	guifg=#999999	guibg=#999999	gui=NONE	ctermfg=gray	ctermbg=gray	cterm=NONE
 
   " spell checking
@@ -150,7 +150,7 @@ if version >= 700
 endif
 
 " other texts
-hi Question	guifg=#0000cc	guibg=bg	gui=NONE	ctermfg=blue	ctermbg=bg	cterm=NONE
+hi Question	guifg=#c96f00	guibg=bg	gui=NONE	ctermfg=brown	ctermbg=bg	cterm=NONE
 hi WarningMsg	guifg=#990000	guibg=#f6ebbc	gui=NONE	ctermfg=darkred	ctermbg=yellow	cterm=NONE
 hi ErrorMsg	guifg=#ffffff	guibg=#cc0000	gui=NONE	ctermfg=white	ctermbg=darkred	cterm=NONE
 hi Title	guifg=#008800	guibg=bg	gui=NONE	ctermfg=darkgreen	ctermbg=bg	cterm=NONE

@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/longht/code/c/csapp/book/link/p.dSYM/Contents/Resources'
+let g:netrw_dirhist_2='/Users/longht/code/c/csapp/book/link/p.dSYM/Contents/Resources/DWARF'
+let g:netrw_dirhist_3='/Users/longht/code/c/csapp/lab/malloclab-handout'
+let g:netrw_dirhist_4='/Users/longht/code/c/csapp/spade/tests'
+let g:netrw_dirhist_5='/Users/longht/.vim/vimrc'
+let g:netrw_dirhist_6='/Users/longht/code/c/csapp/spade/src'
+let g:netrw_dirhist_7='/Users/longht/code/java/interview/src/interview/ctci/ch5'
+let g:netrw_dirhist_8='/Users/longht/code/cpp/muduo/src/muduo'
+let g:netrw_dirhist_9='/Users/longht/code/cpp/muduo/src/muduo/base'

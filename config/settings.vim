@@ -26,6 +26,7 @@ set hidden                      "Buffers can exist in the background
 set showmatch                   "Show matching brackets when text indicator is over them
 set cmdheight=1                 "Command line height
 set clipboard=unnamed           "System clipboard
+set title                       "Change terminal's title
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " CURSOR

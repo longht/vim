@@ -16,3 +16,9 @@
 [submodule "bundle/MiniBufExplorer"]
 	path = bundle/MiniBufExplorer
 	url = https://github.com/fholgado/minibufexpl.vim.git
+[submodule "bundle/autoproto"]
+	path = bundle/autoproto
+	url = https://github.com/vim-scripts/autoproto.vim.git
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = https://github.com/tpope/vim-surround.git

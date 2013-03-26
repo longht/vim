@@ -1,8 +1,9 @@
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " My vimrc file - auto commands
 "
 " Maintainer:	Long Haitao <askoliver@gmail.com>
 " Last Change:	Wed Jan 30 2013
-
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 augroup ExtVimrc
   au!
 

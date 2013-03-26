@@ -83,15 +83,11 @@ setlocal expandtab
 setlocal textwidth=80
 setlocal fo+=t
 
+"setlocal colorcolumn=81
+
 setlocal cindent
 setlocal cinoptions=h1,l1,g1,t0,i4,+4,(0,w1,W4
 
 setlocal indentexpr=GoogleCppIndent()
 
 let b:undo_indent = "setl sw< ts< sts< et< tw< wrap< cin< cino< inde<"
-
-augroup vimrc_autocmds
-  autocmd BufEnter * highlight OverLength ctermbg=255 guibg=#eeeeee
-  autocmd BufEnter * match OverLength /\%81v.*/
-augroup END
-

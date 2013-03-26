@@ -1,7 +1,9 @@
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " My vimrc file - main
 "
 " Maintainer: Long Haitao <askoliver@gmail.com>
-" Last Change: Wed Jan 30 2013
+" Last Change: 2013-03-23
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 set nocompatible
 
@@ -19,5 +21,4 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
 " Load all config files
 source ~/.vim/config/settings.vim
-source ~/.vim/config/syntaxes.vim
 source ~/.vim/config/autocmds.vim

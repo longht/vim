@@ -1,95 +1,74 @@
-" My vimrc file - settings
-"
-" Maintainer:	Long Haitao <askoliver@gmail.com>
-" Last Change:	2013-03-19
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"     File Name:  settings.vim
+"   Last Change:  2013-03-25
+"       Version:  1.0
+"        Author:  Long Haitao  <askoliver@gmail.com>
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" GENERAL
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" General
 syntax on
-colorscheme paperwhite
+colorscheme blackmirror
 filetype plugin indent on
+set autoread
+set autochdir
+set backspace=indent,eol,start
+set clipboard=unnamed
+set cmdheight=1
+set encoding=utf-8
+set gcr=a:blinkon0
+set hidden
+set history=1000
+set mouse=a
+set number
+set ruler
+set showcmd
+set showmode
+set showmatch
+set title
+set visualbell
 
-set encoding=utf-8              "Set utf-8 as standard encoding
-set number                      "Line numbers are good
-set backspace=indent,eol,start  "Allow backspace in insert mode
-set history=1000                "Store lots of :cmdline history
-set showcmd                     "Show incomplete cmds down the bottom
-set showmode                    "Show current mode down the bottom
-set gcr=a:blinkon0              "Disable cursor blink
-set visualbell                  "No sounds
-set autoread                    "Reload files changed outside vim
-set autochdir                   "Automatically cd into the directory that the file is in
-set ruler                       "Always show current position
-set mouse=a                     "Enable the mouse in xterm or GUI
-set hidden                      "Buffers can exist in the background
-set showmatch                   "Show matching brackets when text indicator is over them
-set cmdheight=1                 "Command line height
-set clipboard=unnamed           "System clipboard
-set title                       "Change terminal's title
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" CURSOR
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Cursor
+set cursorline
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 let &t_EI = "\<Esc>]50;CursorShape=0\x7"
-set cursorline
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" SEARCH
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set incsearch        "Find the next match as we type the search
-set hlsearch         "Hilight searches by default
-set viminfo='100,f1  "Save up to 100 marks, enable capital marks
-set ignorecase       "Ignore case when search
-set smartcase        "When searching try to be smart about cases
+" Search
+set hlsearch
+set ignorecase
+set incsearch
+set smartcase
+set viminfo='100,f1
 
-" <Ctrl-l> redraws the screen and removes any search highlighting.
-nnoremap <silent> <C-l> :nohl<CR><C-l>
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" SWAP
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set noswapfile
+" Swap
 set nobackup
+set noswapfile
 set nowb
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" UNDO
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" Keep undo history across sessions, by storing in file.
+" Undo
 silent !mkdir ~/.vim_backups > /dev/null 2>&1
 set undodir=~/.vim_backups
 set undofile
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" INDENT
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Indent
 set autoindent
+set expandtab
+set linebreak
+set nowrap
 set smartindent
 set smarttab
-set expandtab
 set shiftwidth=2
 set softtabstop=2
 set tabstop=2
 
-set nowrap       "Don't wrap lines
-set linebreak    "Wrap lines at convenient points
+" Folds
+set foldmethod=indent
+set foldnestmax=3
+set nofoldenable
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" FOLDS
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set foldmethod=indent   "fold based on indent
-set foldnestmax=3       "deepest fold is 3 levels
-set nofoldenable        "dont fold by default
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" COMPLETION
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Completion
 set wildmode=list:longest
-set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
-set wildignore=*.o,*.obj,*~ "stuff to ignore when tab completing
+set wildmenu
+set wildignore=*.o,*.obj,*~
 set wildignore+=*vim/backups*
 set wildignore+=*sass-cache*
 set wildignore+=*DS_Store*
@@ -100,25 +79,21 @@ set wildignore+=log/**
 set wildignore+=tmp/**
 set wildignore+=*.png,*.jpg,*.gif
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" SCROLLING
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set scrolloff=8         "Start scrolling when we're 8 lines away from margins
+" Scrolling
+set scrolloff=8
 set sidescrolloff=15
 set sidescroll=1
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" STATUS LINE
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Status Line
 set statusline=
-set statusline+=%*\ %n\ %*            "buffer number
-set statusline+=%*%{&ff}%*            "file format
-set statusline+=%*%y%*                "file type
-set statusline+=%*\ %{''.(&fenc!=''?&fenc:&enc).''}      "Encoding
-set statusline+=%*\ %<%F%*            "full path
-set statusline+=%*%m%*                "modified flag
-set statusline+=%*%=%5l%*             "current line
-set statusline+=%*/%L%*               "total lines
-set statusline+=%*(%p%%)              "(%)
-set statusline+=%*%4v\ %*             "virtual column number
+set statusline+=%*\ %n\ %*
+set statusline+=%*%{&ff}%*
+set statusline+=%*%y%*
+set statusline+=%*\ %{''.(&fenc!=''?&fenc:&enc).''}
+set statusline+=%*\ %<%F%*
+set statusline+=%*%m%*
+set statusline+=%*%=%5l%*
+set statusline+=%*/%L%*
+set statusline+=%*(%p%%)
+set statusline+=%*%4v\ %*
 set laststatus=2

@@ -7,7 +7,7 @@
 
 " General
 syntax on
-colorscheme blackmirror
+colorscheme paperwhite
 filetype plugin indent on
 set autoread
 set autochdir

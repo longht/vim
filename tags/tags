@@ -1,5 +1,0 @@
-Mmain	main.c	/^int main()$/
-Mmain2	main2.c	/^int main()$/
-addvec	addvec.c	/^void addvec(int* x, int* y, int* z, int n)$/
-multvec	multvec.c	/^void multvec(int* x, int* y, int* z, int n)$/
-swap	swap.c	/^void swap()$/

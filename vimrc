@@ -1,11 +1,12 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" My vimrc file - main
-"
-" Maintainer: Long Haitao <askoliver@gmail.com>
-" Last Change: 2013-03-23
+"     File Name:  vimrc
+"   Last Change:  2013-03-27
+"       Version:  1.0
+"        Author:  Long Haitao  <askoliver@gmail.com>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 set nocompatible
+set bg&
 
 " Pathogen
 filetype off

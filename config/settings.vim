@@ -1,14 +1,15 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "     File Name:  settings.vim
-"   Last Change:  2013-03-25
+"   Last Change:  2013-03-27
 "       Version:  1.0
 "        Author:  Long Haitao  <askoliver@gmail.com>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" General
 syntax on
-colorscheme paperwhite
+colorscheme vegas
 filetype plugin indent on
+
+" General
 set autoread
 set autochdir
 set backspace=indent,eol,start

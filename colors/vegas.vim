@@ -59,7 +59,7 @@ else
   hi DiffDelete     cterm=NONE        ctermfg=224   ctermbg=224
   hi DiffText       cterm=NONE        ctermfg=fg    ctermbg=223
   hi ErrorMsg       cterm=NONE        ctermfg=196   ctermbg=bg
-  hi Folded         cterm=NONE        ctermfg=243   ctermbg=254
+  hi Folded         cterm=NONE        ctermfg=18    ctermbg=254
   hi IncSearch      cterm=NONE        ctermfg=fg    ctermbg=10
   hi LineNr         cterm=NONE        ctermfg=243   ctermbg=254
   hi MatchParen     cterm=NONE        ctermfg=fg    ctermbg=14
@@ -86,7 +86,7 @@ else
   hi Special        cterm=NONE        ctermfg=5     ctermbg=bg
   hi Underlined     cterm=underline   ctermfg=5     ctermbg=bg
   hi Todo           cterm=NONE        ctermfg=fg    ctermbg=194
-  hi Error          cterm=NONE        ctermfg=fg    ctermbg=216
+  hi Error          cterm=NONE        ctermfg=fg    ctermbg=224
   hi Ignore         cterm=NONE        ctermfg=bg    ctermbg=bg
 endif
 

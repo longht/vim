@@ -62,9 +62,9 @@ set softtabstop=2
 set tabstop=2
 
 " Folds
-set foldmethod=indent
+"set foldmethod=indent
+"set foldcolumn=3
 set foldnestmax=3
-set nofoldenable
 
 " Completion
 set wildmode=list:longest

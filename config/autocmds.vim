@@ -1,11 +1,14 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" My vimrc file - auto commands
-"
-" Maintainer:	Long Haitao <askoliver@gmail.com>
-" Last Change:	Wed Jan 30 2013
+"     File Name:  autocmds.vim
+"   Last Change:  2013-03-27
+"       Version:  1.0
+"        Author:  Long Haitao  <askoliver@gmail.com>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 augroup ExtVimrc
   au!
+
+  " Open all folds
+  au BufRead * normal zR
 
   " Remove any trailing whitespace that is in the file
   au BufRead,BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
@@ -18,11 +21,6 @@ augroup ExtVimrc
 
   " For java and python, autoindent with four spaces
   au FileType python,java set sw=4 sts=4 ts=4
-
-  au! BufRead,BufNewFile *.sass setfiletype sass
-
-  " Indent p tags
-  au FileType html,eruby if g:html_indent_tags !~ '\\|p\>' | let g:html_indent_tags .= '\|p\|li\|dt\|dd' | endif
 
   " Leave the return key alone when in command line windows, since it's used
   " to run commands there.

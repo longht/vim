@@ -62,8 +62,8 @@ set softtabstop=2
 set tabstop=2
 
 " Folds
-"set foldmethod=indent
-"set foldcolumn=3
+set foldenable
+set foldmethod=syntax
 set foldnestmax=3
 
 " Completion

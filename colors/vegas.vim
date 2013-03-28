@@ -13,28 +13,28 @@ endif
 let colors_name = "vegas"
 
 if &background == "dark"
-  hi Normal         cterm=NONE        ctermfg=254   ctermbg=234
+  hi Normal         cterm=NONE        ctermfg=250   ctermbg=235
   hi CursorLine     cterm=NONE                      ctermbg=236
-  hi CursorLineNR   cterm=NONE        ctermfg=254   ctermbg=236
+  hi CursorLineNR   cterm=NONE        ctermfg=245   ctermbg=234
   hi DiffAdd        cterm=NONE        ctermfg=bg    ctermbg=107
   hi DiffChange     cterm=NONE        ctermfg=bg    ctermbg=195
   hi DiffDelete     cterm=NONE        ctermfg=9     ctermbg=9
   hi DiffText       cterm=NONE        ctermfg=bg    ctermbg=193
   hi ErrorMsg       cterm=NONE        ctermfg=9     ctermbg=bg
-  hi Folded         cterm=NONE        ctermfg=239   ctermbg=232
+  hi Folded         cterm=NONE        ctermfg=240   ctermbg=233
   hi IncSearch      cterm=NONE        ctermfg=bg    ctermbg=10
-  hi LineNr         cterm=NONE        ctermfg=239   ctermbg=232
-  hi MatchParen     cterm=NONE        ctermfg=fg    ctermbg=28
-  hi Pmenu          cterm=NONE        ctermfg=bg    ctermbg=111
-  hi PmenuSBar      cterm=NONE        ctermfg=252   ctermbg=252
-  hi PmenuSel       cterm=NONE        ctermfg=15    ctermbg=25
-  hi PmenuThumb     cterm=NONE        ctermfg=245   ctermbg=245
+  hi LineNr         cterm=NONE        ctermfg=240   ctermbg=236
+  hi MatchParen     cterm=bold        ctermfg=15    ctermbg=236
+  hi Pmenu          cterm=NONE        ctermfg=fg    ctermbg=23
+  hi PmenuSBar      cterm=NONE        ctermfg=243   ctermbg=243
+  hi PmenuSel       cterm=bold        ctermfg=0     ctermbg=37
+  hi PmenuThumb     cterm=NONE        ctermfg=250   ctermbg=250
   hi Search         cterm=NONE        ctermfg=bg    ctermbg=11
   hi SpecialKey     cterm=NONE        ctermfg=31    ctermbg=236
   hi StatusLine     cterm=bold        ctermfg=0     ctermbg=39
   hi StatusLineNC   cterm=NONE        ctermfg=253   ctermbg=238
   hi Title          cterm=bold        ctermfg=31    ctermbg=bg
-  hi VertSplit      cterm=NONE        ctermfg=238   ctermbg=232
+  hi VertSplit      cterm=NONE        ctermfg=234   ctermbg=234
   hi Visual         cterm=NONE        ctermfg=bg    ctermbg=14
   hi WarningMsg     cterm=NONE        ctermfg=179   ctermbg=bg
   " Syntax
@@ -47,7 +47,7 @@ if &background == "dark"
   hi Type           cterm=NONE        ctermfg=172   ctermbg=bg
   hi Special        cterm=NONE        ctermfg=31    ctermbg=bg
   hi Underlined     cterm=underline   ctermfg=31    ctermbg=bg
-  hi Todo           cterm=NONE        ctermfg=fg    ctermbg=107
+  hi Todo           cterm=NONE        ctermfg=240   ctermbg=107
   hi Error          cterm=NONE        ctermfg=fg    ctermbg=9
   hi Ignore         cterm=NONE        ctermfg=bg    ctermbg=bg
 else
@@ -72,7 +72,7 @@ else
   hi StatusLine     cterm=bold        ctermfg=bg    ctermbg=fg
   hi StatusLineNC   cterm=NONE        ctermfg=fg    ctermbg=250
   hi Title          cterm=bold        ctermfg=5     ctermbg=bg
-  hi VertSplit      cterm=NONE        ctermfg=fg    ctermbg=255
+  hi VertSplit      cterm=NONE        ctermfg=bg    ctermbg=bg
   hi Visual         cterm=NONE        ctermfg=fg    ctermbg=14
   hi WarningMsg     cterm=NONE        ctermfg=208   ctermbg=bg
   " Syntax

@@ -47,8 +47,8 @@ if &background == "dark"
   hi Type           cterm=NONE        ctermfg=172   ctermbg=bg
   hi Special        cterm=NONE        ctermfg=31    ctermbg=bg
   hi Underlined     cterm=underline   ctermfg=31    ctermbg=bg
-  hi Todo           cterm=NONE        ctermfg=240   ctermbg=107
-  hi Error          cterm=NONE        ctermfg=fg    ctermbg=9
+  hi Todo           cterm=NONE        ctermfg=31    ctermbg=153
+  hi Error          cterm=NONE        ctermfg=15    ctermbg=9
   hi Ignore         cterm=NONE        ctermfg=bg    ctermbg=bg
 else
   hi Normal         cterm=NONE        ctermfg=0     ctermbg=15
@@ -59,7 +59,7 @@ else
   hi DiffDelete     cterm=NONE        ctermfg=224   ctermbg=224
   hi DiffText       cterm=NONE        ctermfg=fg    ctermbg=223
   hi ErrorMsg       cterm=NONE        ctermfg=196   ctermbg=bg
-  hi Folded         cterm=NONE        ctermfg=18    ctermbg=254
+  hi Folded         cterm=NONE        ctermfg=18     ctermbg=254
   hi IncSearch      cterm=NONE        ctermfg=fg    ctermbg=10
   hi LineNr         cterm=NONE        ctermfg=243   ctermbg=254
   hi MatchParen     cterm=NONE        ctermfg=fg    ctermbg=14
@@ -69,7 +69,7 @@ else
   hi PmenuThumb     cterm=NONE        ctermfg=245   ctermbg=245
   hi Search         cterm=NONE        ctermfg=fg    ctermbg=11
   hi SpecialKey     cterm=NONE        ctermfg=20    ctermbg=230
-  hi StatusLine     cterm=bold        ctermfg=bg    ctermbg=fg
+  hi StatusLine     cterm=NONE        ctermfg=bg    ctermbg=fg
   hi StatusLineNC   cterm=NONE        ctermfg=fg    ctermbg=250
   hi Title          cterm=bold        ctermfg=5     ctermbg=bg
   hi VertSplit      cterm=NONE        ctermfg=bg    ctermbg=bg
@@ -79,9 +79,9 @@ else
   hi Comment        cterm=NONE        ctermfg=246   ctermbg=bg
   hi Constant       cterm=NONE        ctermfg=5     ctermbg=bg
   hi String         cterm=NONE        ctermfg=28    ctermbg=bg
-  hi Identifier     cterm=NONE        ctermfg=88     ctermbg=bg
+  hi Identifier     cterm=NONE        ctermfg=88    ctermbg=bg
   hi Statement      cterm=NONE        ctermfg=18    ctermbg=bg
-  hi PreProc        cterm=NONE        ctermfg=18    ctermbg=bg
+  hi PreProc        cterm=bold        ctermfg=246   ctermbg=bg
   hi Type           cterm=NONE        ctermfg=18    ctermbg=bg
   hi Special        cterm=NONE        ctermfg=5     ctermbg=bg
   hi Underlined     cterm=underline   ctermfg=5     ctermbg=bg

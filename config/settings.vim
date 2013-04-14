@@ -49,7 +49,11 @@ set nowb
 
 " Undo
 silent !mkdir ~/.vim_backups > /dev/null 2>&1
-set undodir=~/.vim_backups
+
+if version >= 730
+  set undodir=~/.vim_backups
+endif
+
 set undofile
 
 " Indent

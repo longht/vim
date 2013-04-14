@@ -52,9 +52,8 @@ silent !mkdir ~/.vim_backups > /dev/null 2>&1
 
 if version >= 730
   set undodir=~/.vim_backups
+  set undofile
 endif
-
-set undofile
 
 " Indent
 set autoindent

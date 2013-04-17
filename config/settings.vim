@@ -48,9 +48,8 @@ set noswapfile
 set nowb
 
 " Undo
-silent !mkdir ~/.vim_backups > /dev/null 2>&1
-
 if version >= 730
+  silent !mkdir ~/.vim_backups > /dev/null 2>&1
   set undodir=~/.vim_backups
   set undofile
 endif

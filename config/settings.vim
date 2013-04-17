@@ -27,8 +27,8 @@ set showmode
 set showmatch
 set title
 set visualbell
-set fileencoding=gb18030
-set fileencodings=utf-8,gb18030,utf-16,big5
+set fileencoding=gbk
+set fileencodings=utf-8,gbk,gb18030,utf-16,big5
 
 " Cursor
 set cursorline

@@ -72,7 +72,7 @@ else
   hi StatusLine     cterm=NONE        ctermfg=bg    ctermbg=fg
   hi StatusLineNC   cterm=NONE        ctermfg=fg    ctermbg=250
   hi Title          cterm=bold        ctermfg=5     ctermbg=bg
-  hi VertSplit      cterm=NONE        ctermfg=bg    ctermbg=bg
+  hi VertSplit      cterm=NONE        ctermfg=fg    ctermbg=bg
   hi Visual         cterm=NONE        ctermfg=fg    ctermbg=14
   hi WarningMsg     cterm=NONE        ctermfg=208   ctermbg=bg
   " Syntax

@@ -7,8 +7,8 @@
 augroup ExtVimrc
   au!
 
-  " Open all folds
   au BufRead * normal zR
+  au VimEnter *  NERDTree
 
   " Remove any trailing whitespace that is in the file
   au BufRead,BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif

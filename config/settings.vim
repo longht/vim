@@ -102,3 +102,17 @@ set statusline+=%*/%L%*
 set statusline+=%*(%p%%)
 set statusline+=%*%4v\ %*
 set laststatus=2
+
+let Tlist_Auto_Open=1
+let Tlist_Compact_Format=1
+let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
+let Tlist_Enable_Fold_Column=0
+let Tlist_Process_File_Always=1
+let Tlist_Show_One_File=1
+let Tlist_Exist_OnlyWindow=1
+let Tlist_File_Fold_Auto_Close=0
+let Tlist_Sort_Type="name"
+let Tlist_WinWidth=40
+let Tlist_Close_On_Select=0
+let Tlist_Use_SingleClick=1
+let Tlist_Use_Right_Window=1

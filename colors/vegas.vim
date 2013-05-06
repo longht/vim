@@ -1,6 +1,6 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "     File Name:  vegas.vim
-"   Last Change:  2013-03-27
+"   Last Change:  2013-05-06
 "       Version:  1.0
 "        Author:  Long Haitao  <askoliver@gmail.com>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -59,7 +59,7 @@ else
   hi DiffDelete     cterm=NONE        ctermfg=224   ctermbg=224
   hi DiffText       cterm=NONE        ctermfg=fg    ctermbg=223
   hi ErrorMsg       cterm=NONE        ctermfg=196   ctermbg=bg
-  hi Folded         cterm=NONE        ctermfg=18     ctermbg=254
+  hi Folded         cterm=NONE        ctermfg=18    ctermbg=254
   hi IncSearch      cterm=NONE        ctermfg=fg    ctermbg=10
   hi LineNr         cterm=NONE        ctermfg=243   ctermbg=254
   hi MatchParen     cterm=NONE        ctermfg=fg    ctermbg=14
@@ -68,23 +68,23 @@ else
   hi PmenuSel       cterm=NONE        ctermfg=15    ctermbg=25
   hi PmenuThumb     cterm=NONE        ctermfg=245   ctermbg=245
   hi Search         cterm=NONE        ctermfg=fg    ctermbg=11
-  hi SpecialKey     cterm=NONE        ctermfg=20    ctermbg=230
+  hi SpecialKey     cterm=NONE        ctermfg=5     ctermbg=230
   hi StatusLine     cterm=NONE        ctermfg=bg    ctermbg=fg
   hi StatusLineNC   cterm=NONE        ctermfg=fg    ctermbg=250
-  hi Title          cterm=bold        ctermfg=5     ctermbg=bg
+  hi Title          cterm=bold        ctermfg=fg    ctermbg=bg
   hi VertSplit      cterm=NONE        ctermfg=fg    ctermbg=bg
   hi Visual         cterm=NONE        ctermfg=fg    ctermbg=14
   hi WarningMsg     cterm=NONE        ctermfg=208   ctermbg=bg
   " Syntax
   hi Comment        cterm=NONE        ctermfg=246   ctermbg=bg
-  hi Constant       cterm=NONE        ctermfg=5     ctermbg=bg
+  hi Constant       cterm=NONE        ctermfg=21    ctermbg=bg
   hi String         cterm=NONE        ctermfg=28    ctermbg=bg
   hi Identifier     cterm=NONE        ctermfg=88    ctermbg=bg
   hi Statement      cterm=NONE        ctermfg=18    ctermbg=bg
-  hi PreProc        cterm=bold        ctermfg=246   ctermbg=bg
+  hi PreProc        cterm=NONE        ctermfg=37    ctermbg=bg
   hi Type           cterm=NONE        ctermfg=18    ctermbg=bg
   hi Special        cterm=NONE        ctermfg=5     ctermbg=bg
-  hi Underlined     cterm=underline   ctermfg=5     ctermbg=bg
+  hi Underlined     cterm=underline   ctermfg=21    ctermbg=bg
   hi Todo           cterm=NONE        ctermfg=fg    ctermbg=194
   hi Error          cterm=NONE        ctermfg=fg    ctermbg=224
   hi Ignore         cterm=NONE        ctermfg=bg    ctermbg=bg

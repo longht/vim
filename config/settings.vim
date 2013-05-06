@@ -15,7 +15,6 @@ set autochdir
 set backspace=indent,eol,start
 set clipboard=unnamed
 set cmdheight=1
-set encoding=utf-8
 set gcr=a:blinkon0
 set hidden
 set history=1000
@@ -27,8 +26,8 @@ set showmode
 set showmatch
 set title
 set visualbell
-set fileencoding=gbk
-set fileencodings=utf-8,gbk,utf-16,big5
+set encoding=utf-8
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 
 " Cursor
 set cursorline

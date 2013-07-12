@@ -21,3 +21,6 @@
 [submodule "bundle/taglist"]
 	path = bundle/taglist
 	url = https://github.com/vim-scripts/taglist.vim.git
+[submodule "bundle/protobuf"]
+	path = bundle/protobuf
+	url = git://github.com/uarun/vim-protobuf.git

@@ -1,7 +1,7 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "     File Name:  settings.vim
-"   Last Change:  2013-03-27
-"       Version:  1.0
+"   Last Change:  2013-10-03
+"       Version:  2.0
 "        Author:  Long Haitao  <askoliver@gmail.com>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -102,7 +102,7 @@ set statusline+=%*(%p%%)
 set statusline+=%*%4v\ %*
 set laststatus=2
 
-let Tlist_Auto_Open=1
+let Tlist_Auto_Open=0
 let Tlist_Compact_Format=1
 let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
 let Tlist_Enable_Fold_Column=0

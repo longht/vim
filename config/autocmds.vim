@@ -8,15 +8,19 @@ augroup ExtVimrc
   au!
 
   au BufRead * normal zR
+  autocmd VimEnter * NERDTree
+  autocmd BufEnter * NERDTreeMirror
 
+  " autocmd VimEnter * wincmd w
+  au VimEnter * wincmd p
   " Remove any trailing whitespace that is in the file
   au BufRead,BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
 
   " Jump to last cursor position unless it's invalid or in an event handler
   au BufReadPost *
-    \ if line("'\"") > 0 && line("'\"") <= line("$") |
-    \   exe "normal g`\"" |
-    \ endif
+        \ if line("'\"") > 0 && line("'\"") <= line("$") |
+        \   exe "normal g`\"" |
+        \ endif
 
   " For java and python, autoindent with four spaces
   au FileType python,java set sw=4 sts=4 ts=4
@@ -30,7 +34,7 @@ augroup END
 augroup SetCursorLine
   au!
   au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
-  au WinLeave * setlocal nocursorline
+  "au WinLeave * setlocal nocursorline
 augroup END
 
 augroup SourceVimrc

@@ -24,3 +24,6 @@
 [submodule "bundle/protobuf"]
 	path = bundle/protobuf
 	url = git://github.com/uarun/vim-protobuf.git
+[submodule "bundle/solarized"]
+	path = bundle/solarized
+	url = git://github.com/altercation/vim-colors-solarized.git

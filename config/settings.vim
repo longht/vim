@@ -4,12 +4,12 @@
 "       Version:  2.0
 "        Author:  Long Haitao  <askoliver@gmail.com>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-syntax on
-colorscheme vegas
-filetype plugin indent on
+syntax enable
+set bg&
+colorscheme solarized
 
 " General
+filetype plugin indent on
 set autoread
 set autochdir
 set backspace=indent,eol,start

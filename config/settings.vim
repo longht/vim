@@ -26,7 +26,7 @@ set showmode
 set showmatch
 set title
 set visualbell
-set encoding=utf-8
+set encoding=cp936
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 
 " Cursor

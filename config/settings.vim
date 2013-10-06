@@ -5,7 +5,7 @@
 "        Author:  Long Haitao  <askoliver@gmail.com>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax enable
-set bg&
+set background=dark
 colorscheme solarized
 
 " General
@@ -102,9 +102,10 @@ set statusline+=%*(%p%%)
 set statusline+=%*%4v\ %*
 set laststatus=2
 
+set tags=./tags,tags;$HOME
 let Tlist_Auto_Open=0
 let Tlist_Compact_Format=1
-let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
+let Tlist_Ctags_Cmd='/usr/bin/ctags'
 let Tlist_Enable_Fold_Column=0
 let Tlist_Process_File_Always=1
 let Tlist_Show_One_File=1

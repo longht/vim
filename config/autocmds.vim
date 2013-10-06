@@ -34,7 +34,7 @@ augroup END
 augroup SetCursorLine
   au!
   au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
-  "au WinLeave * setlocal nocursorline
+  au WinLeave * setlocal nocursorline
 augroup END
 
 augroup SourceVimrc

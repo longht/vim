@@ -8,8 +8,6 @@ augroup ExtVimrc
   au!
 
   au BufRead * normal zR
-  au VimEnter * NERDTree
-  au VimEnter * wincmd p
   " Remove any trailing whitespace that is in the file
   au BufRead,BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
 

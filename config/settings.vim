@@ -18,8 +18,8 @@ set cmdheight=1
 set gcr=a:blinkon0
 set hidden
 set history=1000
-set mouse=a
-set number
+"set mouse=a
+"set number
 set ruler
 set showcmd
 set showmode
@@ -27,7 +27,7 @@ set showmatch
 set title
 set visualbell
 set encoding=utf-8
-set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+set fileencodings=ucs-bom,utf-8,gbk,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 
 " Cursor
 set cursorline
@@ -103,7 +103,7 @@ set statusline+=%*%4v\ %*
 set laststatus=2
 
 set tags=./tags,tags;$HOME
-let Tlist_Auto_Open=1
+let Tlist_Auto_Open=0
 let Tlist_Compact_Format=1
 let Tlist_Ctags_Cmd='/usr/bin/ctags'
 let Tlist_Enable_Fold_Column=0

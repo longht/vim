@@ -6,7 +6,8 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax enable
 set background=dark
-colorscheme solarized
+"colorscheme solarized
+colorscheme smyck
 
 " General
 filetype plugin indent on
@@ -18,8 +19,6 @@ set cmdheight=1
 set gcr=a:blinkon0
 set hidden
 set history=1000
-"set mouse=a
-"set number
 set ruler
 set showcmd
 set showmode
@@ -27,7 +26,8 @@ set showmatch
 set title
 set visualbell
 set encoding=utf-8
-set fileencodings=ucs-bom,utf-8,gbk,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+set termencoding=utf-8
+set fileencodings=ucs-bom,utf-8,cp936,gb2312,gbk,gb18030,big5,euc-jp,euc-kr,latin1
 
 " Cursor
 set cursorline

@@ -9,6 +9,7 @@ syntax enable
 "colorscheme hemisu
 set bg=dark
 let g:solarized_contrast="high"
+let g:solarized_italic=1
 colorscheme solarized
 
 " General
@@ -28,7 +29,7 @@ set showmatch
 set title
 set visualbell
 set encoding=utf-8
-set termencoding=gbk
+set termencoding=utf-8
 set fileencodings=ucs-bom,utf-8,cp936,gb2312,gbk,gb18030,big5,euc-jp,euc-kr,latin1
 
 " Cursor

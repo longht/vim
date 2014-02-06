@@ -5,9 +5,11 @@
 "        Author:  Long Haitao  <askoliver@gmail.com>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax enable
-set background=dark
-"colorscheme solarized
-colorscheme smyck
+"set bg=light
+"colorscheme hemisu
+set bg=dark
+let g:solarized_contrast="high"
+colorscheme solarized
 
 " General
 filetype plugin indent on
